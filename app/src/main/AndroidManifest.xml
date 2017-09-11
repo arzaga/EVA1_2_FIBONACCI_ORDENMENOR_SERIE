@@ -16,6 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Burbuja"
+            android:label="Burbuja"
+            />
+        <activity android:name=".Numerica"
+            android:label="Secuencia Numérica"
+            ></activity>
     </application>
 
 </manifest>

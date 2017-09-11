@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_burbuja"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.alexi.eva1_2_fibonacci_ordenmenor_serie.Burbuja"
+    android:layout_gravity="center">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Introduzca la Secuencia"
+        android:ems="10"
+        android:id="@+id/edtSecuencia" />
+
+    <Button
+        android:text="Ordenar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5"
+        android:onClick="onOrdenar"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:hint="Resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtResBurbuja"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <Button
+            android:text="Anterior"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            android:onClick="onAnteriorPrincipal"
+            android:layout_weight="1"
+            android:layout_gravity="center" />
+
+        <Button
+            android:text="Siguiente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3"
+            android:onClick="onSiguienteNumerica"
+            android:layout_gravity="center" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

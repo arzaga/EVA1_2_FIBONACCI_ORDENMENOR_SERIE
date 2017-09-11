@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/EVA1_2_FIBONACCI_ORDENMENOR_SERIE.iml" filepath="$PROJECT_DIR$/EVA1_2_FIBONACCI_ORDENMENOR_SERIE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EVA1_2_FIBONACCI_ORDENMENOR_SERIE.iml" filepath="$PROJECT_DIR$/EVA1_2_FIBONACCI_ORDENMENOR_SERIE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
