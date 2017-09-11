@@ -14,19 +14,20 @@
         android:inputType="textPersonName"
         android:hint="Name"
         android:ems="10"
-        android:id="@+id/editText3" />
+        android:id="@+id/edtNumerica" />
 
     <Button
         android:text="CALCULAR"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button6" />
+        android:onClick="onCalcularNumerica"
+        android:id="@+id/btnCalcularNum" />
 
     <TextView
         android:hint="Serie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView3"
+        android:id="@+id/txtResultadoNum"
         android:layout_marginTop="2dp"
         android:layout_marginBottom="2dp"
         android:textSize="18sp" />
